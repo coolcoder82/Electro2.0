@@ -22,7 +22,7 @@
   
       localStorage.setItem("room_name", room_name);
       
-      window.location = "index.html";
+      window.location = "kwitter_page.html";
   }
   
   function getData() {firebase.database().ref("/").on('value', function(snapshot) {document.getElementById("output").innerHTML = "";snapshot.forEach(function(childSnapshot) {childKey  = childSnapshot.key;
@@ -42,5 +42,5 @@ function redirectToRoomName(name)
 function LogOut() {
   localStorage.removeItem("user_name");
   localStorage.removeItem("room_name");
-      window.location = "index.html";
+      window.location ="kwitter_page.html";
   }

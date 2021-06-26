@@ -16,3 +16,8 @@ body{
     margin-right: 300px;
     text-align: center;
 }
+
+.user_tick
+{
+	width:20px;
+}
