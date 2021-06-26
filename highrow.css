@@ -1,0 +1,12 @@
+body{
+    text-align: center;
+    background-color: aquamarine;
+}
+.logo{
+    width: 50px;
+    height: 40px;
+}
+.header{
+    font-size: 30px;
+    margin-top: 80px;
+}
